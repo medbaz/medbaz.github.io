@@ -136,10 +136,10 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-       url: "www.linkedin.com/in/mohamed-bazber-031665200"
+      url: "www.linkedin.com/in/mohamed-bazber-031665200"
 
 # Site Footer
 footer:
