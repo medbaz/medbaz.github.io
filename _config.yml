@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "medbaz"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -113,11 +113,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "medbaz"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Cybersecurity enthusiast focused on threat detection, SIEM analysis, and Windows/Linux security hardening. Experienced with building and managing Active Directory labs, simulating real attack scenarios, and using ELK for log analysis and detection. Passionate about blue-team operations, monitoring, and continuously improving defensive capabilities through hands-on projects and real-world experimentation.."
+  location         : "morocco"
+  email            : mohamed.bazber1@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
