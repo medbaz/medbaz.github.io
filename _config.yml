@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "medbaz"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/portfolio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Cybersecurity enthusiast."
   location         : "morocco"
   email            : mohamed.bazber1@gmail.com
