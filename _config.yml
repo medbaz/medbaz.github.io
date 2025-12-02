@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Portfolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "medbaz"
-description              : "An amazing website."
+description              : "This is my personal website where I document everything I’m learning on my journey to becoming a cybersecurity analyst."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "medbaz"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Cybersecurity enthusiast focused on threat detection, SIEM analysis, and Windows/Linux security hardening. Experienced with building and managing Active Directory labs, simulating real attack scenarios, and using ELK for log analysis and detection. Passionate about blue-team operations, monitoring, and continuously improving defensive capabilities through hands-on projects and real-world experimentation.."
+  bio              : "Cybersecurity enthusiast."
   location         : "morocco"
   email            : mohamed.bazber1@gmail.com
   links:
