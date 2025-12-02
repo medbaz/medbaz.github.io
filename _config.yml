@@ -133,13 +133,13 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/medbaz"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "www.linkedin.com/in/mohamed-bazber-031665200"
+      url: "https://www.linkedin.com/in/mohamed-bazber-031665200"
 
 # Site Footer
 footer:
