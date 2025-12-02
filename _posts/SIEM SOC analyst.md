@@ -1,3 +1,16 @@
+---
+title: "WINDOWS HARDENING"
+categories:
+  - Edge Case
+tags:
+  - content
+  - css
+  - edge case
+  - lists
+  - markup
+---
+
+
 ## **Logs, SIEM, and Threat Detection**
 
 ### 🔍 1. **Logs Everywhere**
