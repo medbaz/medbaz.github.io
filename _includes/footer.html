@@ -1,18 +1,12 @@
-{% if site.footer.links %}
+{% unless site.atom_feed.hide %}
+  {% assign show_atom = true %}
+{% endunless %}
+{% if site.footer.links or show_atom %}
 <div class="page__footer-follow">
   <ul class="social-icons">
-    {% for link in site.footer.links %}
-      {% if link.label and link.url %}
-        <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer" title="{{ link.label }}">
-          <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
-          <span class="visually-hidden">{{ link.label | escape_once }}</span>
-        </a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
 
-<div class="page__footer-custom">
-  <p>© {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}</p>
-</div>
+
+<div class="page__footer-copyright">&copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
