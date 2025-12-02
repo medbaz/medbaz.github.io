@@ -5,8 +5,6 @@ permalink: /about/
 author_profile: true
 ---
 
-## About Me
-
 I am a cybersecurity analyst with hands-on experience in log analysis, SIEM operations, threat detection, Active Directory management, and Windows/Linux hardening. I trained through the **Cybersecurity Analyst Program at JobinTech**, where I completed multiple real-world labs simulating modern attack scenarios across different operating systems and enterprise environments.
 
 My work includes building and managing an **Active Directory environment**, performing both defensive and offensive security tasks, and deploying a full **ELK SIEM detection lab**. I have analyzed real attack data, tracked authentication events, monitored account and group modifications, and created detection logic to identify suspicious behavior. I enjoy transforming raw logs into actionable insights and improving security visibility across systems.
