@@ -1,5 +1,5 @@
 ---
-title: "Edge Case: Nested and Mixed Lists"
+title: "Building a SOC Lab"
 categories:
   - Edge Case
 tags:
