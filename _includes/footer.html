@@ -1,26 +1,18 @@
 {% if site.footer.links %}
 <div class="page__footer-follow">
   <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-
     {% for link in site.footer.links %}
       {% if link.label and link.url %}
-        <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label | escape_once | strip }}</a></li>
+        <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer" title="{{ link.label }}">
+          <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+          <span class="visually-hidden">{{ link.label | escape_once }}</span>
+        </a></li>
       {% endif %}
     {% endfor %}
   </ul>
 </div>
 {% endif %}
 
-<!-- Custom Footer Information -->
 <div class="page__footer-custom">
-  <p>
-    {% if site.title %}<span class="site-title">{{ site.title | escape_once }}</span> • {% endif %}
-    {% if site.tagline %}<span class="site-tagline">{{ site.tagline | escape_once }}</span>{% endif %}
-  </p>
-  <p class="footer-credits">
-    Built with <i class="fas fa-heart" style="color: #e25555;"></i> using Jekyll
-  </p>
+  <p>© {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}</p>
 </div>
