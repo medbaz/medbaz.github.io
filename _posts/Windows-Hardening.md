@@ -1,3 +1,14 @@
+---
+title: "Windows Hardening"
+categories:
+  - Edge Case
+tags:
+  - content
+  - css
+  - edge case
+  - lists
+  - markup
+---
 
 ### **System Services & Monitoring**
 **Role:** To understand and manage the core background processes, system configuration database, and event logs. This is fundamental for troubleshooting and spotting unauthorized changes.
