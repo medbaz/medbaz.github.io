@@ -1,5 +1,5 @@
 ---
-title: "WINDOWS HARDENING"
+title: "SIEM SOC analyst"
 categories:
   - Edge Case
 tags:
