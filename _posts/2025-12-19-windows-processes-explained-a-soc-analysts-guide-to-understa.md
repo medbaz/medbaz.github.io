@@ -28,7 +28,7 @@ Just like in any well-organized city, every "citizen" (process) has an ID card w
 
 
 
-    ![](./assets/images/img1.png)
+    ![](/assets/images/img1.png)
 
 ### **Navigating the City: Key Standard Windows Processes**
 Now, let's meet the most important "citizens" – the **Standard Windows Processes**. These are the core services and applications that make Windows run. Understanding their normal behavior is like knowing the regular routes and roles of essential city workers. Any deviation from this "normal" is a red flag!
