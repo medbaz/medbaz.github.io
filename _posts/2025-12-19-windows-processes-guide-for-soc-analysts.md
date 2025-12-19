@@ -10,7 +10,7 @@ tags:
   - digital-forensics
 ---
 
-## **Unmasking the Digital Underworld: A SOC Analyst's Guide to Windows Processes**
+## **Unmasking the Digital Underworld: A SOC Analyst's Guide to Windows Processes
 
 Ever wondered what's really happening inside your computer? While you're browsing the web or typing a document, a silent army of programs is working tirelessly in the background. These are **Windows Processes**, and understanding them is the secret weapon for any Security Operations Center (SOC) analyst, incident responder, or threat hunter. Think of your Windows system as a bustling city, and each process as an individual citizen or organization, each with a specific role.
 
