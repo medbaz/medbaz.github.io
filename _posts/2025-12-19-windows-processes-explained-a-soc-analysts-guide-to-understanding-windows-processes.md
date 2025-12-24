@@ -1,16 +1,16 @@
 ---
-title: "Windows Processes Guide for SOC Analysts"
+title: "Windows Processes Explained A SOC Analysts Guide to Understanding Windows Processes"
 categories:
-  - SOC Analysis
+  - soc-Analysis
 tags:
   - windows-processes
   - system-security
-  - threat-intelligence
+  - threat-hunting
   - incident-response
   - digital-forensics
 ---
 
-## **Unmasking the Digital Underworld: A SOC Analyst's Guide to Windows Processes
+## **Unmasking the Digital Underworld: A SOC Analyst's Guide to Windows Processes**
 
 Ever wondered what's really happening inside your computer? While you're browsing the web or typing a document, a silent army of programs is working tirelessly in the background. These are **Windows Processes**, and understanding them is the secret weapon for any Security Operations Center (SOC) analyst, incident responder, or threat hunter. Think of your Windows system as a bustling city, and each process as an individual citizen or organization, each with a specific role.
 
@@ -30,8 +30,7 @@ Just like in any well-organized city, every "citizen" (process) has an ID card w
 
 
 
-    ![](img1.png)
-
+    ![](/assets/images/img1.png)
 
 ### **Navigating the City: Key Standard Windows Processes**
 Now, let's meet the most important "citizens" – the **Standard Windows Processes**. These are the core services and applications that make Windows run. Understanding their normal behavior is like knowing the regular routes and roles of essential city workers. Any deviation from this "normal" is a red flag!
@@ -119,12 +118,12 @@ Here's an example of what to look for:
 ---
 
 ### **The Security Cameras: Windows Event Logs**
- ![](img2.png)
+ ![](/assets/images/img2.png)
 
 Even if an imposter slips past your initial observation, they leave traces. Windows Event Logs are your digital security cameras, recording every significant activity.
 
 * **Event ID 4688 (Process Creation):** This iis your most valuable log for process monitoring. It records when a new process is created, often including its full command line, parent process, and user.
- ![](img3.png)
+ ![](/assets/images/img3.png)
 
 To dive deeper into the world of Windows process forensics, we need to look at the **technical nuances** that separate a junior analyst from a senior threat hunter.
 
@@ -177,15 +176,15 @@ Attackers don't bring guns to a heist; they use the tools already inside the ban
 
 **First Exemple :**
 
- ![](img4.png)
- ![](img5.png)
- ![](img6.png)
+ ![](/assets/images/img4.png)
+ ![](/assets/images/img5.png)
+ ![](/assets/images/img6.png)
  
 
 **Second Exemple :**
 
- ![](img7.png)
- ![](img8.png)
+ ![](/assets/images/img7.png)
+ ![](/assets/images/img8.png)
  
  ### **B. Process Injection : The Parasite 
 
@@ -193,7 +192,7 @@ This is the most dangerous technique. An attacker starts a legitimate process (l
 
 - **How to spot it:** Look for a process that starts behaving out of character. For example, if `svchost.exe` suddenly starts a network connection to an unknown IP in another country, it might be injected.
 
- ![](img9.png)
+ ![](/assets/images/img9.png)
  
 ---
 
